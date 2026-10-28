@@ -1,0 +1,21 @@
+R3MG:1d::size = 200
+R3MG:1d::n_levels = 2
+R3MG:1d::points in 0.2 : 0.7: 110
+R3MG:1d::same as brute force: 1
+R3MG:1d::nearest to 0.45: 175 17 172 27 199
+R3MG:1d::same as brute force: 1
+R3MG:1d::points in box (tree of copies): 110
+R3MG:2d::size = 200
+R3MG:2d::n_levels = 2
+R3MG:2d::points in 0.2 0.2 : 0.7 0.7: 50
+R3MG:2d::same as brute force: 1
+R3MG:2d::nearest to 0.45 0.45: 27 110 117 23 13
+R3MG:2d::same as brute force: 1
+R3MG:2d::points in box (tree of copies): 50
+R3MG:3d::size = 200
+R3MG:3d::n_levels = 2
+R3MG:3d::points in 0.2 0.2 0.2 : 0.7 0.7 0.7: 34
+R3MG:3d::same as brute force: 1
+R3MG:3d::nearest to 0.45 0.45 0.45: 135 21 199 15 153
+R3MG:3d::same as brute force: 1
+R3MG:3d::points in box (tree of copies): 34

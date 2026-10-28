@@ -1,0 +1,6 @@
+R3MG::segment degenerate: 1
+R3MG::Exception ExcMessage
+R3MG::  The map from the real to the unit box is not defined, since the box has zero length in direction 1.
+R3MG::No exception thrown by: box.real_to_unit(Point<2>(0.5, 1.))
+R3MG::Exception ExcMessage
+R3MG::  The bounding box can't be created: the corners must be given in the order lower-left, upper-right.

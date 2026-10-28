@@ -1,0 +1,34 @@
+R3MG:points::n_levels = 2
+R3MG:points::level 0: 4 boxes
+R3MG:points::  0 0 : 0.428571 0.428571
+R3MG:points::  0 0.571429 : 0.428571 1
+R3MG:points::  0.571429 0 : 1 0.428571
+R3MG:points::  0.571429 0.571429 : 1 1
+R3MG:points::level 1: 16 boxes
+R3MG:points::  0 0 : 0.142857 0.142857
+R3MG:points::  0 0.285714 : 0.142857 0.428571
+R3MG:points::  0.285714 0 : 0.428571 0.142857
+R3MG:points::  0.285714 0.285714 : 0.428571 0.428571
+R3MG:points::  0 0.571429 : 0.142857 0.714286
+R3MG:points::  0 0.857143 : 0.142857 1
+R3MG:points::  0.285714 0.571429 : 0.428571 0.714286
+R3MG:points::  0.285714 0.857143 : 0.428571 1
+R3MG:points::  0.571429 0 : 0.714286 0.142857
+R3MG:points::  0.571429 0.285714 : 0.714286 0.428571
+R3MG:points::  0.857143 0 : 1 0.142857
+R3MG:points::  0.857143 0.285714 : 1 0.428571
+R3MG:points::  0.571429 0.571429 : 0.714286 0.714286
+R3MG:points::  0.571429 0.857143 : 0.714286 1
+R3MG:points::  0.857143 0.571429 : 1 0.714286
+R3MG:points::  0.857143 0.857143 : 1 1
+R3MG:points::visited nodes on level 0: 4
+R3MG:points::visited nodes on level 1: 16
+R3MG:points::visited values: 64
+R3MG:cells::n_levels = 1
+R3MG:cells::level 0: 4 boxes
+R3MG:cells::  0 0 : 0.5 0.5
+R3MG:cells::  0 0.5 : 0.5 1
+R3MG:cells::  0.5 0 : 1 0.5
+R3MG:cells::  0.5 0.5 : 1 1
+R3MG:cells::visited nodes on level 0: 4
+R3MG:cells::visited values: 16

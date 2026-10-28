@@ -1,0 +1,16 @@
+R3MG::Exception ExcMessage
+R3MG::  Arithmetic is broken.
+R3MG::Exception ExcDimensionMismatch
+R3MG::  Dimension 3 not equal to 4.
+R3MG::Exception ExcIndexRange
+R3MG::  Index 5 is not in the half-open range [0,5).
+R3MG::Exception ExcNotImplemented
+R3MG::  You are trying to use functionality that is not implemented yet.
+R3MG::Exception ExcInternalError
+R3MG::  This exception indicates an internal error of the library. Please report it to the developers.
+R3MG::Exception ExcTooFewPoints
+R3MG::  Found 2 points, but at least 4 are needed.
+R3MG::No exception thrown by: R3MGC_AssertThrow(true, ExcMessage("Never thrown."))
+R3MG::what() contains the condition: 1
+R3MG::what() contains the function: 1
+R3MG::what() contains the message: 1

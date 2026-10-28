@@ -1,0 +1,18 @@
+R3MG:1d::size = 8
+R3MG:1d::n_levels = 1
+R3MG:1d::cells intersecting 0.3 : 0.5: 2 3 4
+R3MG:1d::same as brute force: 1
+R3MG:1d::cells containing 0.6: 4
+R3MG:1d::cells containing 0.5: 3 4
+R3MG:2d::size = 64
+R3MG:2d::n_levels = 2
+R3MG:2d::cells intersecting 0.3 0.3 : 0.5 0.5: 18 19 20 26 27 28 34 35 36
+R3MG:2d::same as brute force: 1
+R3MG:2d::cells containing 0.6 0.6: 36
+R3MG:2d::cells containing 0.5 0.5: 27 28 35 36
+R3MG:3d::size = 512
+R3MG:3d::n_levels = 4
+R3MG:3d::cells intersecting 0.3 0.3 0.3 : 0.5 0.5 0.5: 146 147 148 154 155 156 162 163 164 210 211 212 218 219 220 226 227 228 274 275 276 282 283 284 290 291 292
+R3MG:3d::same as brute force: 1
+R3MG:3d::cells containing 0.6 0.6 0.6: 292
+R3MG:3d::cells containing 0.5 0.5 0.5: 219 220 227 228 283 284 291 292

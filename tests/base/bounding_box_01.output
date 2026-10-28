@@ -1,0 +1,75 @@
+R3MG:1d::box = 0 : 1
+R3MG:1d::direction 0: [0, 1], length 1
+R3MG:1d::volume = 1
+R3MG:1d::center = 0.5
+R3MG:1d::diameter = 1
+R3MG:1d::box of points = 0 : 2
+R3MG:1d::box of no points = 0 : 0
+R3MG:1d::merged = 0 : 2
+R3MG:1d::center inside: 1
+R3MG:1d::corner inside: 1
+R3MG:1d::corner + 1e-14 inside: 1
+R3MG:1d::corner + 1e-6 inside: 0
+R3MG:1d::corner + 1e-6 inside with tolerance 1e-5: 1
+R3MG:1d::unit_to_real(0.25) = 0.25
+R3MG:1d::real_to_unit(0.25) = 0.25
+R3MG:1d::unit_to_real(0) = 0
+R3MG:1d::real_to_unit(p_max) = 1
+R3MG:1d::round trip error = 0
+R3MG:1d::box degenerate: 0
+R3MG:1d::point box degenerate: 1
+R3MG:1d::box == box: 1
+R3MG:1d::box != merged: 1
+R3MG:2d::box = 0 0 : 1 2
+R3MG:2d::direction 0: [0, 1], length 1
+R3MG:2d::direction 1: [0, 2], length 2
+R3MG:2d::volume = 2
+R3MG:2d::center = 0.5 1
+R3MG:2d::diameter = 2.23607
+R3MG:2d::box of points = 0 -1 : 2 3
+R3MG:2d::box of no points = 0 0 : 0 0
+R3MG:2d::merged = 0 -1 : 2 3
+R3MG:2d::center inside: 1
+R3MG:2d::corner inside: 1
+R3MG:2d::corner + 1e-14 inside: 1
+R3MG:2d::corner + 1e-6 inside: 0
+R3MG:2d::corner + 1e-6 inside with tolerance 1e-5: 1
+R3MG:2d::unit_to_real(0.25 0.5) = 0.25 1
+R3MG:2d::real_to_unit(0.25 1) = 0.25 0.5
+R3MG:2d::unit_to_real(0) = 0 0
+R3MG:2d::real_to_unit(p_max) = 1 1
+R3MG:2d::round trip error = 0
+R3MG:2d::box degenerate: 0
+R3MG:2d::point box degenerate: 1
+R3MG:2d::flat box degenerate: 1
+R3MG:2d::flat box degenerate with tolerance 1e-12: 0
+R3MG:2d::tiny box degenerate: 0
+R3MG:2d::box == box: 1
+R3MG:2d::box != merged: 1
+R3MG:3d::box = 0 0 0 : 1 2 3
+R3MG:3d::direction 0: [0, 1], length 1
+R3MG:3d::direction 1: [0, 2], length 2
+R3MG:3d::direction 2: [0, 3], length 3
+R3MG:3d::volume = 6
+R3MG:3d::center = 0.5 1 1.5
+R3MG:3d::diameter = 3.74166
+R3MG:3d::box of points = 0 -1 -2 : 2 3 4
+R3MG:3d::box of no points = 0 0 0 : 0 0 0
+R3MG:3d::merged = 0 -1 -2 : 2 3 4
+R3MG:3d::center inside: 1
+R3MG:3d::corner inside: 1
+R3MG:3d::corner + 1e-14 inside: 1
+R3MG:3d::corner + 1e-6 inside: 0
+R3MG:3d::corner + 1e-6 inside with tolerance 1e-5: 1
+R3MG:3d::unit_to_real(0.25 0.5 0.75) = 0.25 1 2.25
+R3MG:3d::real_to_unit(0.25 1 2.25) = 0.25 0.5 0.75
+R3MG:3d::unit_to_real(0) = 0 0 0
+R3MG:3d::real_to_unit(p_max) = 1 1 1
+R3MG:3d::round trip error = 0
+R3MG:3d::box degenerate: 0
+R3MG:3d::point box degenerate: 1
+R3MG:3d::flat box degenerate: 1
+R3MG:3d::flat box degenerate with tolerance 1e-12: 0
+R3MG:3d::tiny box degenerate: 0
+R3MG:3d::box == box: 1
+R3MG:3d::box != merged: 1
