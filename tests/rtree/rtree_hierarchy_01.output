@@ -1,0 +1,81 @@
+R3MG:1d-37::n_levels(tree) = 1, hierarchy.n_levels() = 2
+R3MG:1d-37::level 0: 1 nodes
+R3MG:1d-37::level 1: 5 nodes
+R3MG:1d-37::root contains all the leaves: 1
+R3MG:1d-37::parent of the root is invalid: 1
+R3MG:1d-37::every leaf in one agglomerate per level: 1
+R3MG:1d-37::children partition their parent: 1
+R3MG:1d-37::boxes are the boxes of the points: 1
+R3MG:2d-37::n_levels(tree) = 1, hierarchy.n_levels() = 2
+R3MG:2d-37::level 0: 1 nodes
+R3MG:2d-37::level 1: 5 nodes
+R3MG:2d-37::root contains all the leaves: 1
+R3MG:2d-37::parent of the root is invalid: 1
+R3MG:2d-37::every leaf in one agglomerate per level: 1
+R3MG:2d-37::children partition their parent: 1
+R3MG:2d-37::boxes are the boxes of the points: 1
+R3MG:3d-37::n_levels(tree) = 1, hierarchy.n_levels() = 2
+R3MG:3d-37::level 0: 1 nodes
+R3MG:3d-37::level 1: 5 nodes
+R3MG:3d-37::root contains all the leaves: 1
+R3MG:3d-37::parent of the root is invalid: 1
+R3MG:3d-37::every leaf in one agglomerate per level: 1
+R3MG:3d-37::children partition their parent: 1
+R3MG:3d-37::boxes are the boxes of the points: 1
+R3MG:1d-200::n_levels(tree) = 2, hierarchy.n_levels() = 3
+R3MG:1d-200::level 0: 1 nodes
+R3MG:1d-200::level 1: 4 nodes
+R3MG:1d-200::level 2: 25 nodes
+R3MG:1d-200::root contains all the leaves: 1
+R3MG:1d-200::parent of the root is invalid: 1
+R3MG:1d-200::every leaf in one agglomerate per level: 1
+R3MG:1d-200::children partition their parent: 1
+R3MG:1d-200::boxes are the boxes of the points: 1
+R3MG:2d-200::n_levels(tree) = 2, hierarchy.n_levels() = 3
+R3MG:2d-200::level 0: 1 nodes
+R3MG:2d-200::level 1: 4 nodes
+R3MG:2d-200::level 2: 25 nodes
+R3MG:2d-200::root contains all the leaves: 1
+R3MG:2d-200::parent of the root is invalid: 1
+R3MG:2d-200::every leaf in one agglomerate per level: 1
+R3MG:2d-200::children partition their parent: 1
+R3MG:2d-200::boxes are the boxes of the points: 1
+R3MG:3d-200::n_levels(tree) = 2, hierarchy.n_levels() = 3
+R3MG:3d-200::level 0: 1 nodes
+R3MG:3d-200::level 1: 4 nodes
+R3MG:3d-200::level 2: 25 nodes
+R3MG:3d-200::root contains all the leaves: 1
+R3MG:3d-200::parent of the root is invalid: 1
+R3MG:3d-200::every leaf in one agglomerate per level: 1
+R3MG:3d-200::children partition their parent: 1
+R3MG:3d-200::boxes are the boxes of the points: 1
+R3MG:1d-1000::n_levels(tree) = 3, hierarchy.n_levels() = 4
+R3MG:1d-1000::level 0: 1 nodes
+R3MG:1d-1000::level 1: 2 nodes
+R3MG:1d-1000::level 2: 16 nodes
+R3MG:1d-1000::level 3: 125 nodes
+R3MG:1d-1000::root contains all the leaves: 1
+R3MG:1d-1000::parent of the root is invalid: 1
+R3MG:1d-1000::every leaf in one agglomerate per level: 1
+R3MG:1d-1000::children partition their parent: 1
+R3MG:1d-1000::boxes are the boxes of the points: 1
+R3MG:2d-1000::n_levels(tree) = 3, hierarchy.n_levels() = 4
+R3MG:2d-1000::level 0: 1 nodes
+R3MG:2d-1000::level 1: 2 nodes
+R3MG:2d-1000::level 2: 16 nodes
+R3MG:2d-1000::level 3: 125 nodes
+R3MG:2d-1000::root contains all the leaves: 1
+R3MG:2d-1000::parent of the root is invalid: 1
+R3MG:2d-1000::every leaf in one agglomerate per level: 1
+R3MG:2d-1000::children partition their parent: 1
+R3MG:2d-1000::boxes are the boxes of the points: 1
+R3MG:3d-1000::n_levels(tree) = 3, hierarchy.n_levels() = 4
+R3MG:3d-1000::level 0: 1 nodes
+R3MG:3d-1000::level 1: 2 nodes
+R3MG:3d-1000::level 2: 16 nodes
+R3MG:3d-1000::level 3: 125 nodes
+R3MG:3d-1000::root contains all the leaves: 1
+R3MG:3d-1000::parent of the root is invalid: 1
+R3MG:3d-1000::every leaf in one agglomerate per level: 1
+R3MG:3d-1000::children partition their parent: 1
+R3MG:3d-1000::boxes are the boxes of the points: 1

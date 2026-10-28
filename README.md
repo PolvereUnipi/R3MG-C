@@ -16,7 +16,7 @@ MATLAB, Python, ...).
 | Step | Content                                                  | Status |
 |------|----------------------------------------------------------|--------|
 | 1    | Project skeleton, `Point`, `BoundingBox`, R-tree wrapper | done   |
-| 2    | R-tree agglomerator (agglomerates + hierarchy)           |        |
+| 2    | R-tree hierarchy (agglomerates + parent/children)        | done   |
 | 3    | Lagrange `Q^p` basis on boxes                            |        |
 | 4    | Sparse matrices, COO / Matrix Market output              |        |
 | 5    | Point-based transfers                                    |        |
@@ -27,9 +27,9 @@ MATLAB, Python, ...).
 ## Layout
 
 ```
-include/r3mgc/base/            Point, BoundingBox, exceptions, index types
+include/r3mgc/base/            Point, BoundingBox, ArrayView, exceptions, index types
 include/r3mgc/boost_adaptors/  Boost.Geometry traits for Point and BoundingBox
-include/r3mgc/rtree/           R-tree construction, traversal, level extraction
+include/r3mgc/rtree/           R-tree construction, traversal, agglomeration hierarchy
 tests/<module>/                deal.II-style tests: <name>.cc + <name>.output
 cmake/                         test pickup macro and test driver
 ```

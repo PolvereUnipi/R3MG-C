@@ -99,9 +99,11 @@ Full plan: `~/.claude/plans/hello-what-i-want-enumerated-kitten.md`.
 1. [done] Skeleton, `Point`, `BoundingBox`, Boost adaptors, R-tree wrapper
    (`pack_rtree`, `pack_rtree_of_indices`, `visit_rtree`, `n_levels`,
    `extract_rtree_level`), test infrastructure.
-2. R-tree agglomerator: port `Rtree_visitor`/`CellsAgglomerator` with a generic
-   leaf type (no deal.II iterators). Output: agglomerates and the parent→children
-   hierarchy per level. Golden test vs Polydeal.
+2. [done] `RTreeHierarchy` (`rtree/rtree_hierarchy.h`): one traversal, all
+   levels (root = level 0, as in Polydeal), agglomerates as leaf ids (CSR-like
+   offsets into one depth-first leaf array), parent/children, node boxes from
+   the tree; `ArrayView`. Matches Polydeal's `CellsAgglomerator` exactly
+   (`rtree_hierarchy_03`).
 3. Lagrange `Q^p` on the reference box (equidistant, = `FE_DGQ`), golden values
    from deal.II.
 4. LAC: `FullMatrix` (column-pivoted QR rank), dynamic sparsity → CSR,
